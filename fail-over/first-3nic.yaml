@@ -41,8 +41,8 @@ extension_services:
           My_Dns:
             class: DNS
             nameServers:
-              - {{{DNS_01}}}
-              - {{{DNS_02}}}
+              - '{{{DNS_01}}}'
+              - '{{{DNS_02}}}'
               - 168.63.129.16
           My_System:
             autoPhonehome: true
