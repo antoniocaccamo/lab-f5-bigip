@@ -284,7 +284,7 @@ runtime_parameters:
     type: tag
     tagProvider:
       environment: azure
-      key: virtualMachineComputerName
+      key: hostname
   - name: REMOTE_HOST_NAME
     type: tag
     tagProvider:
@@ -304,4 +304,4 @@ runtime_parameters:
     type: tag
     tagProvider:
       environment: azure
-      key: dnsServer02
+      key: dnsServer01
