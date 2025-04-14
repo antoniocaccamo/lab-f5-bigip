@@ -304,4 +304,4 @@ runtime_parameters:
     type: tag
     tagProvider:
       environment: azure
-      key: dnsServer01
+      key: dnsServer02
